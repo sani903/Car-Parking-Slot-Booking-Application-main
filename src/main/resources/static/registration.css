@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00B4D8;
+}
+
+input, .btn {
+    border-radius: 0.313em;
+    border: none;
+    height: 2.813em;
+    width: 18.75em;
+}
+
+.userData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.display-4 {
+    text-align: center;
+    padding-top: 2em;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.create-account-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.create-account {
+    background-color: #03045E;
+    color: #FFFFFF;
+    border-radius: 0.313em;
+    height: 2.813em;
+    width: 18.75em;
+    transition: all 150ms;
+}
+
+.create-account:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #000000;
+    transform: ease-in-out;
+
+}
+
+input {
+    padding: 0 0 0 1em;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.userInputFieldRight {
+    padding-left: 1em;
+}
+
+.userInputFieldRight, .userInputFieldLeft {
+    padding-bottom: 1em;
+}
+

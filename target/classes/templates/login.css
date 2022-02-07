@@ -1,0 +1,73 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00B4D8;
+}
+
+button {
+    background-color: #03045E;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+input, .btn {
+    border-radius: 0.313em;
+    border: none;
+    height: 2.813em;
+    width: 18.75em;
+}
+
+input {
+    padding: 0 0 0 1em;
+}
+
+.btn {
+    background-color: #03045E;
+    padding: 0.7em;
+    transition: all 150ms;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transform: ease-in-out;
+
+}
+
+.passwordField {
+    padding-top: 1em;
+    padding-bottom: 2.813em;
+}
+
+#forgot {
+    padding-left: 9.7em;
+    color: #FFFFFF;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login p {
+    color: #FFFFFF;
+}
+
+.login-btn {
+    font-weight: bold;
+}
+
+.login-btn-social {
+    padding: 0.625em 0;
+}
+
+
+::placeholder {
+    color: #000000;
+}
+
+#makeAccount {
+    color: #03045E;
+}

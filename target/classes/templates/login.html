@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="./resources/bootstrap-4.1.3-dist" rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="login">
+            <form action="f" method="post">
+                <div class="usernameField">
+
+                        <input type="text" field="*{username}" name="username" placeholder="USERNAME">
+
+                </div>
+
+                <div class="passwordField">
+
+                        <input type="password" field="*{password}" name="password" placeholder="PASSWORD">
+
+                </div>
+
+                <div class="login-btn">
+                    <input class="btn btn-primary" type="submit" value="Login">
+                </div>
+
+                <p>
+                    <a id="forgot" href="">
+                        Forgot password?
+                    </a>
+                </p>
+
+                <div class="login-btn-social">
+                    <input class="btn btn-primary" type="submit" value="Sign-in with Google">
+                </div>
+
+                <div class="login-btn-social">
+                    <input class="btn btn-primary" type="submit" value="Sign-in with Facebook">
+                </div>
+
+                <div class="login-btn-social">
+                    <input class="btn btn-primary" type="submit" value="Sign-in with Twitter">
+                </div>
+
+                <p>
+                    Don't have an account?
+                    <a href="/src/registration.html" id="makeAccount">Join free today!</a>
+                </p>
+
+            </form>
+        </div>
+    </div>
+    <script src="./resources/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
